@@ -20,7 +20,7 @@ export default function SocialProof() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <p className="text-emerald-300 font-semibold mb-4 tracking-wide text-sm uppercase">Caso de éxito</p>
+            <p className="text-emerald-300 font-semibold mb-4 tracking-wide text-base uppercase">Caso de éxito</p>
             <h2 className="font-display text-3xl lg:text-4xl font-bold mb-6 leading-tight">
               Cómo Global Médica pasó de Excel a un sistema profesional
             </h2>

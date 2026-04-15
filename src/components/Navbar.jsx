@@ -5,7 +5,7 @@ import { ArrowRight, X, Menu } from 'lucide-react'
 const NAV_LINKS = [
   { name: 'Solución', href: '#solucion' },
   { name: 'Proceso', href: '#proceso' },
-  { name: 'Sobre mí', href: '#nosotros' },
+  { name: 'Fundador', href: '#nosotros' },
   { name: 'Planes', href: '#planes' },
   { name: 'FAQ', href: '#faq' },
 ]

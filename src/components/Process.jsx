@@ -33,7 +33,7 @@ export default function Process() {
     <section id="proceso" className="py-24 lg:py-32 bg-emerald-900">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
-          <p className="text-emerald-300 font-semibold mb-4 tracking-wide text-sm uppercase">Cómo trabajamos</p>
+          <p className="text-emerald-300 font-semibold mb-4 tracking-wide text-base uppercase">Cómo trabajamos</p>
           <h2 className="font-display text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-6">
             De la reunión inicial al sistema funcionando en 4 pasos
           </h2>

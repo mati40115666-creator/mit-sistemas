@@ -4,7 +4,7 @@
   import SocialProof from './components/SocialProof'
   import Features from './components/Features'
   import Process from './components/Process'
-  import ContactForm from './components/ContactForm'
+  import Planes from './components/Planes'
   import FAQ from './components/FAQ'
   import FinalCTA from './components/FinalCTA'
   import Footer from './components/Footer'
@@ -21,7 +21,7 @@
           <Features />
           <Process />
           <About />
-          <ContactForm />
+          <Planes />
           <FAQ />
           <FinalCTA />
         </main>

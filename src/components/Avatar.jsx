@@ -17,11 +17,14 @@ export default function Avatar({ size = 300 }) {
           src="/avatar.png"
           alt="Matías - MIT Sistemas"
           style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'top center',
-          }}
+            
+  width: '100%',
+  height: '100%',
+  objectFit: 'cover',
+  objectPosition: 'center -2%',
+  transform: 'scale(1)',
+  transformOrigin: 'center top',
+}}
         />
       </div>
 

@@ -39,7 +39,7 @@ export default function Features() {
     <section id="solucion" className="py-24 lg:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20">
-          <p className="text-emerald-700 font-semibold mb-4 tracking-wide text-sm uppercase">La solución</p>
+          <p className="text-emerald-700 font-semibold mb-4 tracking-wide text-base uppercase">La solución</p>
           <h2 className="font-display text-3xl lg:text-4xl xl:text-5xl font-bold text-stone-900 mb-6">
             Todo lo que necesita tu clínica en un solo sistema
           </h2>

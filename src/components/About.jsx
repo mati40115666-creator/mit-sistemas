@@ -34,8 +34,8 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <p className="text-emerald-700 font-semibold mb-4 tracking-wide text-sm uppercase">
-              Sobre MIT Sistemas
+            <p className="text-emerald-700 font-semibold mb-4 tracking-wide text-base uppercase">
+              Nuestro Fundador
             </p>
             <h2 className="font-display text-3xl lg:text-4xl xl:text-5xl font-bold text-stone-900 mb-6 leading-tight">
               Una persona real,<br />
