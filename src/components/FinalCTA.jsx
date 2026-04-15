@@ -26,7 +26,7 @@ export default function FinalCTA() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
             <a
-              href="https://wa.me/5493426264360"
+              href="https://wa.me/5493425500020?text=Hola%20Mat%C3%ADas%2C%20quiero%20agendar%20una%20demo%20gratuita%20de%20MIT%20Sistemas."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-emerald-900 font-semibold rounded-xl hover:bg-emerald-50 transition-colors shadow-lg"
@@ -35,7 +35,7 @@ export default function FinalCTA() {
               Hablar por WhatsApp
             </a>
             <a
-              href="mailto:matiastasi97@gmail.com"
+              href="mailto:matias@mitsistemas.com.ar"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-emerald-800 text-white font-semibold rounded-xl hover:bg-emerald-700 transition-colors border border-emerald-700"
             >
               <Mail className="w-5 h-5" />

@@ -2,7 +2,7 @@
 // Reemplaza la sección de precios con 3 planes fijos
 // Mantiene la paleta: verde oscuro #1a4a3a, verde medio #2d7a5a, crema #f5f0e8
 
-const WHATSAPP_NUMBER = "5493426264360"; // ← Reemplazá con tu número real
+const WHATSAPP_NUMBER = "5493425500020"; // ← Reemplazá con tu número real
 const WHATSAPP_MSG = encodeURIComponent(
   "Hola Matías, quiero saber más sobre los planes de MIT Sistemas para mi clínica/ortopedia."
 );
