@@ -4,8 +4,12 @@ import { ChevronDown } from 'lucide-react'
 
 const FAQS = [
   {
-    q: '¿Cuánto tiempo tarda estar funcionando?',
-    a: 'Entre 2 y 4 semanas dependiendo de la complejidad. La primera semana es configuración, la segunda es capacitación y ajustes finales. Tu clínica no se detiene durante el proceso.'
+    q: '¿Cómo funciona la demo gratuita?',
+    a: 'Es una videollamada de 20 minutos por Google Meet o Zoom. Te muestro un entorno de demostración del sistema funcionando con datos representativos del rubro — turnos, stock, facturación, obras sociales. Sin instalaciones, sin que toques nada. Solo mirás cómo quedaría tu clínica digitalizada y hacés las preguntas que quieras. Sin compromiso de compra.'
+  },
+  {
+    q: '¿Cuánto tiempo tarda en estar funcionando?',
+    a: 'Entre 2 y 4 semanas dependiendo de la complejidad. La primer etapa es configuración, la segunda es capacitación y ajustes finales. Tu clínica no se detiene durante el proceso.'
   },
   {
     q: '¿Necesito saber de tecnología?',
@@ -24,8 +28,8 @@ const FAQS = [
     a: 'El trabajo es 100% remoto, así que atendemos todo Argentina. La capacitación es por videollamada y el soporte por WhatsApp. Sin costos extras por distancia.'
   },
   {
-  q: '¿En qué se diferencia el acompañamiento de 60 días del mantenimiento mensual?',
-  a: 'El acompañamiento es la etapa inicial intensiva — te ayudamos a cargar los primeros datos, ajustamos el sistema a tu flujo de trabajo y respondemos tus dudas en minutos. Una vez que lo manejás solo, esa etapa termina. El mantenimiento mensual es opcional y cubre actualizaciones de seguridad, backups automáticos y soporte técnico cuando surge algo puntual.'
+    q: '¿En qué se diferencia el acompañamiento de 60 días del mantenimiento mensual?',
+    a: 'El acompañamiento es la etapa inicial intensiva — te ayudamos a cargar los primeros datos, ajustamos el sistema a tu flujo de trabajo y respondemos tus dudas en minutos. Una vez que lo manejás solo, esa etapa termina. El mantenimiento mensual es opcional y cubre actualizaciones de seguridad, backups automáticos y soporte técnico cuando surge algo puntual.'
   },
 ]
 
