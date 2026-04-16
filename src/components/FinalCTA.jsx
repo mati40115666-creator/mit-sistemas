@@ -35,7 +35,7 @@ export default function FinalCTA() {
               Hablar por WhatsApp
             </a>
             <a
-              href="mailto:matias@mitsistemas.com.ar"
+              href="mailto:matiastasi97@gmail.com"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-emerald-800 text-white font-semibold rounded-xl hover:bg-emerald-700 transition-colors border border-emerald-700"
             >
               <Mail className="w-5 h-5" />
