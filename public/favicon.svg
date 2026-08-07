@@ -1,0 +1,14 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#047857"/>
+  <rect width="48" height="48" rx="12" fill="url(#grad)" opacity="0.3"/>
+  <defs>
+    <radialGradient id="grad" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <text x="24" y="26" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="16" fill="white" letter-spacing="1">MIT</text>
+  <path d="M6 34 L12 34 L15 28 L18 38 L21 30 L24 34 L27 34 L30 28 L33 38 L36 31 L39 34 L42 34" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
+  <circle cx="8" cy="8" r="2" fill="white" opacity="0.25"/>
+  <circle cx="40" cy="40" r="2" fill="white" opacity="0.25"/>
+</svg>
