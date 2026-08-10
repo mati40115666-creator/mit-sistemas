@@ -53,7 +53,7 @@ export default function Footer() {
             </div>
             <div className="text-sm text-center md:text-right">
               <p>© 2026 MIT Sistemas. Todos los derechos reservados.</p>
-              <p className="mt-1">Santa Fe, Argentina · +54 9 342 626 4360</p>
+              <p className="mt-1">Santa Fe, Argentina · +54 9 342 550 0020</p>
             </div>
           </div>
         </div>
