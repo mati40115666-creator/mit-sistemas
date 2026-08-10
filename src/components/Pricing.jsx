@@ -25,9 +25,9 @@ const PLANS = [
     desc: 'El más elegido por ortopedias y centro médicos',
     features: [
       'Todo lo del plan Esencial',
-      'Sistema Odoo: turnos + pacientes + finanzas',
-      'Facturación electrónica AFIP',
-      'Control de stock de insumos',
+      'Sistema Odoo: turnos + pacientes + gestión',
+      'Ficha de paciente con obras sociales',
+      'Aviso de turno por WhatsApp',
       '3 usuarios simultáneos',
       'Capacitación 2hs en vivo',
       'Soporte activo 60 días'

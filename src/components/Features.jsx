@@ -4,23 +4,23 @@ import { Calendar, Users, TrendingUp, Shield, FileText, HeadphonesIcon } from 'l
 const FEATURES = [
   {
     icon: Calendar,
-    title: 'Gestión de turnos inteligente',
-    desc: 'Pacientes reservan online, reciben recordatorios automáticos por WhatsApp y tu recepción no pierde tiempo en llamadas.'
+    title: 'Turnos online sin llamadas',
+    desc: 'Los pacientes reservan solos desde la web, eligiendo profesional y horario disponible. Tu recepción deja de vivir del teléfono.'
   },
   {
     icon: Users,
-    title: 'Historial clínico unificado',
-    desc: 'Toda la información del paciente en un solo lugar: consultas, estudios, evolución, recetas y pagos históricos.'
+    title: 'Ficha de pacientes centralizada',
+    desc: 'Datos, obra social y requisitos de cada paciente en un mismo lugar, accesible para todo el equipo.'
   },
   {
     icon: TrendingUp,
-    title: 'Control financiero real',
-    desc: 'Facturación electrónica AFIP integrada, cuentas corrientes de pacientes y obras sociales, reportes automáticos mensuales.'
+    title: 'Panel de gestión diario',
+    desc: 'Agenda del día lista para imprimir, filtro de turnos por profesional y por fecha, todo desde un panel simple.'
   },
   {
     icon: Shield,
-    title: 'Stock de insumos médicos',
-    desc: 'Seguimiento de implantes, materiales descartables y equipamiento. Alertas automáticas cuando hay que reponer stock.'
+    title: 'Aviso de turno por WhatsApp',
+    desc: 'Un clic desde el panel abre WhatsApp con el mensaje de turno ya escrito, listo para enviar al paciente.'
   },
   {
     icon: FileText,
@@ -30,7 +30,7 @@ const FEATURES = [
   {
     icon: HeadphonesIcon,
     title: 'Soporte humano y personalizado',  
-    desc: 'Capacitación en vivo y soporte por WhatsApp con respuesta en menos de 2 horas. No te dejamos solo después de la venta.'
+    desc: 'Capacitación y soporte por WhatsApp. No te dejamos solo después de la venta.'
   }
 ]
 
@@ -44,8 +44,9 @@ export default function Features() {
             Todo lo que necesita tu clínica en un solo sistema
           </h2>
           <p className="text-lg text-stone-600 leading-relaxed">
-            No son herramientas sueltas. Es una plataforma integrada donde 
-            turnos, pacientes, stock y finanzas se conectan automáticamente.
+            El sistema base incluye todo lo necesario para ordenar la agenda desde el día uno.
+            Historial clínico, stock de insumos y facturación se suman como módulos, según
+            lo que cada clínica necesite.
           </p>
         </div>
 
