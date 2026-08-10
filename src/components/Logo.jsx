@@ -1,41 +1,31 @@
-export default function Logo({ size = 40, white = false }) {
-  const textCol  = white ? '#ffffff' : '#1c1917'
-  const mutedCol = white ? 'rgba(255,255,255,0.6)' : '#78716c'
-  const brandCol = white ? '#6ee7b7' : '#1F4A36'
-
+/**
+ * Logo de MIT Sistemas: cruz + wordmark + eslogan.
+ * Fuente unica de la marca — si cambia el logo, se cambia solo acá.
+ *
+ *   <Logo />                                  header (fondo claro)
+ *   <Logo size={40} white textClass="text-lg" />   footer (fondo oscuro)
+ *
+ * Se renderiza con <span> porque siempre va dentro de un <a>.
+ */
+export default function Logo({ size = 44, white = false, textClass = 'text-xl' }) {
   return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-      {/* Marca: cruz + corchetes + ECG */}
+    <span className="flex items-center gap-3">
       <img
         src={white ? '/logo-cruz-blanco.png' : '/logo-cruz.png'}
         alt="MIT Sistemas"
         width={size}
         height={size}
-        style={{ display: 'block', width: size, height: size, objectFit: 'contain' }}
+        style={{ width: size, height: size }}
+        className="block object-contain shrink-0"
       />
-
-      <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.15 }}>
-        <span style={{
-          fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif",
-          fontWeight: 800,
-          fontSize: size * 0.45,
-          color: textCol,
-          letterSpacing: '-0.5px',
-        }}>
-          MIT <span style={{ color: brandCol }}>Sistemas</span>
+      <span className="flex flex-col leading-tight">
+        <span className={`${textClass} font-bold tracking-tight ${white ? 'text-white' : 'text-stone-900'}`}>
+          MIT <span className={white ? 'text-emerald-400' : 'text-emerald-700'}>Sistemas</span>
         </span>
-        <span style={{
-          fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif",
-          fontWeight: 400,
-          fontSize: size * 0.2,
-          color: mutedCol,
-          letterSpacing: '1px',
-          textTransform: 'uppercase',
-          marginTop: 1,
-        }}>
+        <span className="text-xs text-stone-400 uppercase tracking-widest">
           Gestión Digital
         </span>
-      </div>
-    </div>
+      </span>
+    </span>
   )
 }
