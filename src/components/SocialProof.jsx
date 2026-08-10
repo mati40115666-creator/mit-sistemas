@@ -25,23 +25,24 @@ export default function SocialProof() {
               Cómo Global Médica pasó de Excel a un sistema profesional
             </h2>
             <p className="text-emerald-100 text-lg leading-relaxed mb-8">
-              Centro de ortopedia y traumatología en Santa Fe. Especialidades: 
-              cirugías, implantes biomédicos, artroscopia, insumos hospitalarios 
-              y equipamiento médico.
+              Centro de ortopedia y traumatología en Santa Fe: cirugías, implantes 
+              biomédicos, artroscopia, insumos hospitalarios y equipamiento médico. 
+              Para ortopedias el sistema incluye stock, remitos y cuentas corrientes; 
+              en clínicas y consultorios, el foco está en turnos y pacientes.
             </p>
 
             <div className="grid grid-cols-3 gap-6 mb-10">
               <div className="text-center p-4 bg-emerald-800/50 rounded-2xl">
-                <p className="text-2xl lg:text-3xl font-bold text-emerald-300 mb-1">-40%</p>
-                <p className="text-xs lg:text-sm text-emerald-200">tiempo administrativo</p>
+                <p className="text-2xl lg:text-3xl font-bold text-emerald-300 mb-1">1</p>
+                <p className="text-xs lg:text-sm text-emerald-200">mes de implementación</p>
               </div>
               <div className="text-center p-4 bg-emerald-800/50 rounded-2xl">
-                <p className="text-2xl lg:text-3xl font-bold text-emerald-300 mb-1">100%</p>
-                <p className="text-xs lg:text-sm text-emerald-200">stock controlado</p>
+                <p className="text-2xl lg:text-3xl font-bold text-emerald-300 mb-1">2 hs</p>
+                <p className="text-xs lg:text-sm text-emerald-200">de capacitación</p>
               </div>
               <div className="text-center p-4 bg-emerald-800/50 rounded-2xl">
-                <p className="text-2xl lg:text-3xl font-bold text-emerald-300 mb-1">0</p>
-                <p className="text-xs lg:text-sm text-emerald-200">turnos perdidos</p>
+                <p className="text-2xl lg:text-3xl font-bold text-emerald-300 mb-1">Excel</p>
+                <p className="text-xs lg:text-sm text-emerald-200">es lo que dejaron atrás</p>
               </div>
             </div>
 
