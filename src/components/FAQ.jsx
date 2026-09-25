@@ -20,16 +20,12 @@ const FAQS = [
     a: 'Podemos integrar el sistema de turnos a tu web actual, o rediseñarla si querés una imagen más profesional. Lo evaluamos en la primera reunión sin costo.'
   },
   {
-    q: '¿El mantenimiento mensual es obligatorio?',
-    a: 'No es obligatorio, pero sí recomendable. Incluye actualizaciones de seguridad, backups automáticos y soporte técnico. Sin mantenimiento el sistema sigue funcionando, pero sin soporte prioritario.'
-  },
-  {
     q: '¿Trabajás solo en Santa Fe?',
     a: 'El trabajo es 100% remoto, así que atendemos todo Argentina. La capacitación es por videollamada y el soporte por WhatsApp. Sin costos extras por distancia.'
   },
   {
-    q: '¿En qué se diferencia el acompañamiento de 60 días del mantenimiento mensual?',
-    a: 'El acompañamiento es la etapa inicial intensiva — te ayudamos a cargar los primeros datos, ajustamos el sistema a tu flujo de trabajo y respondemos tus dudas en minutos. Una vez que lo manejás solo, esa etapa termina. El mantenimiento mensual es opcional y cubre actualizaciones de seguridad, backups automáticos y soporte técnico cuando surge algo puntual.'
+    q: '¿Qué incluye el pago mensual?',
+    a: 'Hosting, backups automáticos, certificado de seguridad, corrección de errores, cambios de configuración (altas de profesionales, horarios, obras sociales) y soporte por WhatsApp en horario hábil. Es parte de todos los planes, no un servicio aparte — el sistema funciona online todos los días, así que necesita mantenimiento activo, igual que cualquier sistema en la nube.'
   },
 ]
 
