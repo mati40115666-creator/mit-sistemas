@@ -12,7 +12,7 @@ const PROCESS_STEPS = [
     num: '02',
     icon: Settings,
     title: 'Implementación',
-    desc: 'Configuramos el sistema con tus datos reales: pacientes, servicios, precios, stock inicial y obras sociales.'
+    desc: 'Configuramos el sistema con tus datos reales: profesionales, horarios, precios y obras sociales.'
   },
   {
     num: '03',
@@ -24,7 +24,7 @@ const PROCESS_STEPS = [
     num: '04',
     icon: MessageCircle,
     title: 'Soporte continuo',
-    desc: '60 días de acompañamiento directo por WhatsApp. Resolvemos dudas en minutos, no en días.'
+    desc: 'Acompañamiento directo por WhatsApp, incluido en el plan mensual. Resolvemos dudas en minutos, no en días.'
   }
 ]
 

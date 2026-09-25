@@ -5,7 +5,7 @@ import { ChevronDown } from 'lucide-react'
 const FAQS = [
   {
     q: '¿Cómo funciona la demo gratuita?',
-    a: 'Es una videollamada de 20 minutos por Google Meet o Zoom. Te muestro un entorno de demostración del sistema funcionando con datos representativos del rubro — turnos, stock, facturación, obras sociales. Sin instalaciones, sin que toques nada. Solo mirás cómo quedaría tu clínica digitalizada y hacés las preguntas que quieras. Sin compromiso de compra.'
+    a: 'Es una videollamada de 20 minutos por Google Meet o Zoom. Te muestro un entorno de demostración del sistema funcionando con datos representativos del rubro — turnos, pacientes, obras sociales. Sin instalaciones, sin que toques nada. Solo mirás cómo quedaría tu clínica digitalizada y hacés las preguntas que quieras. Sin compromiso de compra.'
   },
   {
     q: '¿Cuánto tiempo tarda en estar funcionando?',

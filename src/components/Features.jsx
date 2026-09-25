@@ -45,8 +45,8 @@ export default function Features() {
           </h2>
           <p className="text-lg text-stone-600 leading-relaxed">
             El sistema base incluye todo lo necesario para ordenar la agenda desde el día uno.
-            Historial clínico, stock de insumos y facturación se suman como módulos, según
-            lo que cada clínica necesite.
+            Para ortopedias y centros con insumos, armamos un sistema con stock y facturación —
+            consultanos por ese caso puntual.
           </p>
         </div>
 
