@@ -120,6 +120,18 @@ export default function Planes() {
           ))}
         </div>
 
+        {/* Módulos a medida */}
+        <div className="bg-white rounded-2xl border border-gray-100 px-8 py-6 mb-10 text-center">
+          <p className="text-gray-700 font-semibold mb-1">
+            ¿Necesitás algo más específico?
+          </p>
+          <p className="text-gray-500 text-sm max-w-2xl mx-auto">
+            Historia clínica digital, control de stock, facturación, o cualquier otra función
+            a medida de tu negocio se puede desarrollar y se cotiza aparte, según lo que tu
+            clínica u ortopedia necesite.
+          </p>
+        </div>
+
         {/* Notas generales */}
         <div className="bg-white rounded-2xl border border-gray-100 px-8 py-5 flex flex-col sm:flex-row sm:items-center gap-3 justify-center mb-10">
           <div className="flex items-center gap-2 text-sm text-gray-500">

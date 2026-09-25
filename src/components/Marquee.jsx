@@ -1,9 +1,9 @@
 const ITEMS = [
   'Gestión de Turnos',
-  'Facturación Electrónica',
+  'Portal Online 24hs',
   'Panel de Control',
-  'Stock de Insumos',
-  'CRM de Pacientes',
+  'Gestión de Pacientes',
+  'WhatsApp Integrado',
   'Clínicas',
   'Ortopedias',
   'Santa Fe',

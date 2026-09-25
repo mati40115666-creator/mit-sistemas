@@ -21,7 +21,7 @@ export default function FinalCTA() {
             Agendá tu demo gratuita hoy
           </h2>
           <p className="text-xl text-emerald-100 mb-10 max-w-2xl mx-auto leading-relaxed">
-            20 minutos por videollamada. Te muestro el sistema funcionando con datos reales de una clínica similar a la tuya. Sin letra chica, sin compromisos.
+            20 minutos por videollamada. Te muestro el sistema funcionando en un entorno de demostración, con datos representativos del rubro. Sin letra chica, sin compromisos.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">

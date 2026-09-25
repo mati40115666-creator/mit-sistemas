@@ -4,7 +4,7 @@ import { ArrowRight, Check, TrendingUp, Clock, Building2, Printer } from 'lucide
 const STATS = [
   { value: '1', label: 'mes', sub: 'implementación' },
   { value: '2', label: 'hs', sub: 'capacitación' },
-  { value: '100', label: '%', sub: 'acompañamiento 60 días' },
+  { value: 'Diario', label: '', sub: 'backup automático' },
   { value: '24/7', label: '', sub: 'acceso online' },
 ]
 
@@ -69,7 +69,7 @@ export default function Hero() {
             <div className="flex flex-wrap items-center gap-6 text-sm text-stone-500">
               <div className="flex items-center gap-2">
                 <Check className="w-4 h-4 text-emerald-600" />
-                <span>Sin permanencia</span>
+                <span>Hosting y backups incluidos</span>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="w-4 h-4 text-emerald-600" />
