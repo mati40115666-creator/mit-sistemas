@@ -49,12 +49,12 @@ export default function SocialProof() {
             <blockquote className="relative">
               <Quote className="absolute -top-2 -left-2 w-8 h-8 text-emerald-700 opacity-50" />
               <p className="pl-8 text-emerald-100 italic text-lg leading-relaxed">
-                "Implementamos el sistema en un mes y en dos horas de capacitación 
-                ya lo usábamos solos. Ahora sabemos exactamente qué hay en stock 
+                "Implementamos el sistema en un mes y en dos horas de capacitación
+                ya lo usábamos solos. Ahora sabemos exactamente qué hay en stock
                 y cuánto facturamos sin depender de nadie."
               </p>
               <footer className="pl-8 mt-4 text-emerald-300 font-semibold">
-                — Director, Global Médica · Santa Fe, Argentina
+                — Diego Tasi, Gerente de Global Médica · Santa Fe, Argentina
               </footer>
             </blockquote>
           </motion.div>
@@ -79,61 +79,33 @@ export default function SocialProof() {
 
               <div className="space-y-4">
                 <div className="bg-emerald-900/50 rounded-xl p-4 border border-emerald-700/50">
-                  <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
                       <Package className="w-5 h-5 text-emerald-400" />
                       <span className="text-emerald-100 font-medium">Stock de implantes</span>
                     </div>
                     <span className="text-emerald-300 text-sm font-semibold">Automatizado</span>
                   </div>
-                  <div className="h-2 bg-emerald-950 rounded-full overflow-hidden">
-                    <motion.div 
-                      initial={{ width: 0 }}
-                      whileInView={{ width: '85%' }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 1, delay: 0.5 }}
-                      className="h-full bg-emerald-400 rounded-full" 
-                    />
-                  </div>
-                  <p className="text-xs text-emerald-400 mt-2">124 productos controlados</p>
                 </div>
 
                 <div className="bg-emerald-900/50 rounded-xl p-4 border border-emerald-700/50">
-                  <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
                       <CreditCard className="w-5 h-5 text-emerald-400" />
                       <span className="text-emerald-100 font-medium">Cuentas corrientes</span>
                     </div>
                     <span className="text-emerald-300 text-sm font-semibold">Tiempo real</span>
                   </div>
-                  <div className="h-2 bg-emerald-950 rounded-full overflow-hidden">
-                    <motion.div 
-                      initial={{ width: 0 }}
-                      whileInView={{ width: '100%' }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 1, delay: 0.7 }}
-                      className="h-full bg-emerald-400 rounded-full" 
-                    />
-                  </div>
                   <p className="text-xs text-emerald-400 mt-2">Obras sociales y particulares</p>
                 </div>
 
                 <div className="bg-emerald-900/50 rounded-xl p-4 border border-emerald-700/50">
-                  <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
                       <TrendingUp className="w-5 h-5 text-emerald-400" />
                       <span className="text-emerald-100 font-medium">Facturación mensual</span>
                     </div>
                     <span className="text-emerald-300 text-sm font-semibold">En tiempo real</span>
-                  </div>
-                  <div className="h-2 bg-emerald-950 rounded-full overflow-hidden">
-                    <motion.div 
-                      initial={{ width: 0 }}
-                      whileInView={{ width: '92%' }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 1, delay: 0.9 }}
-                      className="h-full bg-emerald-400 rounded-full" 
-                    />
                   </div>
                   <p className="text-xs text-emerald-400 mt-2">Obras sociales y particulares</p>
                 </div>
