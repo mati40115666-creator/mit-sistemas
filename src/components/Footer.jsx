@@ -12,7 +12,7 @@ const SOCIAL_LINKS = [
   { icon: Instagram, href: 'https://www.instagram.com/mitsistemas.ar', label: 'Instagram' },
   { icon: Linkedin, href: 'https://www.linkedin.com/in/matiastasi', label: 'LinkedIn' },
   { icon: Phone, href: 'https://wa.me/5493425500020?text=Hola%20Mat%C3%ADas%2C%20quiero%20saber%20m%C3%A1s%20sobre%20MIT%20Sistemas.', label: 'WhatsApp' },
-  { icon: Mail, href: 'mailto:matiastasi97@gmail.com', label: 'Email' },
+  { icon: Mail, href: 'mailto:mitsistemas.ar@gmail.com', label: 'Email' },
 ]
 
 export default function Footer() {
