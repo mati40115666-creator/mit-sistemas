@@ -26,7 +26,7 @@ export default function FinalCTA() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
             <a
-              href="https://wa.me/5493425500020?text=Hola%20Mat%C3%ADas%2C%20quiero%20agendar%20una%20demo%20gratuita%20de%20MIT%20Sistemas."
+              href="https://wa.me/5493425500020?text=Hola%20Matias%2C%20quiero%20agendar%20una%20demo%20gratuita%20de%20MIT%20Sistemas."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-emerald-900 font-semibold rounded-xl hover:bg-emerald-50 transition-colors shadow-lg"
