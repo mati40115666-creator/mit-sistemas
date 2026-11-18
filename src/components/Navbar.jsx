@@ -4,6 +4,7 @@ import { ArrowRight, X, Menu } from 'lucide-react'
 import Logo from './Logo'
 
 const NAV_LINKS = [
+  { name: 'Clientes', href: '#clientes' },
   { name: 'Solución', href: '#solucion' },
   { name: 'Proceso', href: '#proceso' },
   { name: 'Fundador', href: '#nosotros' },

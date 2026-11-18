@@ -9,6 +9,8 @@
   import FinalCTA from './components/FinalCTA'
   import Footer from './components/Footer'
   import About from './components/About'
+import Clientes from './components/Clientes'
+import AsiSeVe from './components/AsiSeVe'
 
   function App() {
     return (
@@ -17,8 +19,10 @@
         <main>
           <Hero />
           <Marquee />
-          <SocialProof />
+          <Clientes />
+          <AsiSeVe />
           <Features />
+          <SocialProof />
           <Process />
           <About />
           <Planes />
